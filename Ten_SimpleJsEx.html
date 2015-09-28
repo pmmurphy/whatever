@@ -1,0 +1,151 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script>
+
+	function maxOfThree(apple, banana, carrots){
+
+		//(apple<banana) ==(banana >apple)
+
+		if (apple>banana && 
+			apple>carrots ){
+			return apple;
+
+		}
+		if(banana >apple && 
+			banana>carrtos){
+			return banana;
+		}	
+  
+		if (carrot>banana && 
+			carrot>apple){
+			return carrots;
+		
+	}
+}
+
+
+console.log(maxOfThree(15,7,6)
+	//experts 15 (first argement
+
+	console.log(maxOfThree(1,5,4) 
+	//experts 6 (second argment
+
+		console.log(maxOfThree(1,2,3);
+	//expers 3 thrid argument		
+
+}
+	}
+
+
+	</script>
+
+
+	<script>
+	// write a function that takes a charcter ie a string of lenght 1 and returns true if its a vowel false otherwise. 
+	//assume input is alwasy a 1 character long string
+	//no need for error checking on
+	//-longer strings
+	//-different types
+
+	function vowelSimple (s){
+		if (s=="a")
+			return true;
+		else if (s=="e")
+			return true;
+		else if s=="i")
+		return true;
+		else if (s== "o")
+			return true;
+		else if (s=="u")
+			return true;
+
+		else
+			return false;
+
+		//iam a statement.tolowerCase()
+		//var s= ABCDE
+		//s.toLowerCase();
+
+
+		function vowel(s){
+			var vowels = [aeiou];
+			console.log(s.vowels);
+
+			for(var i=0; i<vowels.lenght; i++){
+				console.log("curent vowel", 
+					vowel[i]); 
+				if(s==vowel[i])
+					return true;
+			}
+
+
+			//didn't returen true for any of the vowels we chekcked, so lets return false outside of the for loop
+			//return false;
+
+
+
+		}
+
+
+
+	}
+	function vowel(s){
+		var first = ['a','e','i','o','u'];
+		if(s=== first){
+		console.log( "i'm in your if");
+		}
+
+	}
+
+
+	// abcder.split("")
+		// this is a sentence.split("")
+		//this is a sentence.split ('')
+	function vowelInString(s){
+		var a =[];
+		a=s.split("");
+		var vowel =[aeiou];
+		a=s.split("");
+		var whatever =false;
+		for (var i =0; i<a.lenght; i++){
+
+			for(var j=0; j <vowel.lenght; j++){
+				if (a[i]==vowel [j])
+					whatever=true;
+				break;
+			}
+		}
+
+	};
+
+	if (whatever){
+
+		//consol.log(there is a vowel)
+		return whatever;
+
+		else{
+			//console.log ('there are no vowels')
+			return whatever;
+
+		}
+	}
+
+	vowel(1); //false
+	vowel("s"); //false
+	vowel("a"); //true
+	vowel(e) //true
+	vowel(i) //true
+	vowel(o)//true
+	vowel(u)//true
+	vowel(y) //false
+	vowel(?) //false
+	vowel
+	</script>
+
+</body>
+</html>
